@@ -1,0 +1,28 @@
+h4{
+    cursor: pointer; 
+}
+
+.fa{
+    line-height: 15px;
+    margin-left: 10px;
+    height: 20px;
+    transition: transform 0.2s;
+}
+.fa-edit,
+.fa-times{
+    float: right; 
+    position: relative;
+    top: 10px;
+}
+
+.fa-times{
+    color: red;
+}
+
+.fa-edit{
+    color: #000;
+}
+
+.rotateArrow{ 
+    transform: rotate(180deg)
+}
